@@ -25,13 +25,13 @@ function App() {
         </div>
       </div>
 
-      <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-        <div className={`bg-primary ${styles.flexCenter}`}>
+      
+        <div className={`bg-primary ${styles.flexStart}`}>
           <div className={`${styles.boxWidth}`}>
             <MainSection />
           </div>
         </div>
-      </div>
+      
 
       <div
         className={`${styles.paddingX} ${styles.paddingX} ${styles.flexCenter}`}

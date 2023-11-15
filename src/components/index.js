@@ -3,12 +3,12 @@ import Business from "./Business";
 import Button from "./Button";
 import CardDeal from "./CardDeal";
 import Clients from "./Clients";
-import CTA from "./CTA";
+import CTA from "./CTA/CTA";
 import FeedbackCard from "./FeedbackCard";
 import Footer from "./Footer";
-import GetStarted from "./GetStarted";
-import MainSection from "./MainSection";
-import Navbar from "../components/Navbar";
+import GetStarted from "./GetStarted/GetStarted";
+import MainSection from "./MainSection/MainSection";
+import Navbar from "./Navbar/Navbar";
 import Stats from "./Stats";
 import Testimonials from "./Testimonials";
 

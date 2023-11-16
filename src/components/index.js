@@ -8,7 +8,7 @@ import FeedbackCard from "./FeedbackCard";
 import Footer from "./Footer";
 import GetStarted from "./GetStarted";
 import MainSection from "./MainSection";
-import Navbar from "./Navbar/Navbar";
+import Navbar from "./Navbar";
 import Stats from "./Stats";
 import Testimonials from "./Testimonials";
 

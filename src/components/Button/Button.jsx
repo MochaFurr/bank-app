@@ -1,9 +1,7 @@
-import React from 'react'
+import { StyledButton } from "./style";
 
 const Button = () => {
-  return (
-    <div>Button</div>
-  )
-}
+  return <StyledButton type="button">Get Started</StyledButton>;
+};
 
-export default Button
+export default Button;

@@ -48,7 +48,7 @@ const Business = () => {
 
       <FeaturesDiv>
         {features.map((feature, index) => (
-          <FeatureCard key={features.id} {...feature} index={index} />
+          <FeatureCard key={feature.id} {...feature} index={index} />
         ))}
       </FeaturesDiv>
     </StyledSection>

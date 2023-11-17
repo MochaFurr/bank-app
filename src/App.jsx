@@ -6,7 +6,6 @@ import {
   CardDeal,
   Clients,
   CTA,
-  FeedbackCard,
   Footer,
   GetStarted,
   MainSection,

@@ -8,15 +8,15 @@ const FeedbackCard = ({ content, name, title, img }) => {
         alt="double-qutes"
         className="h-[27px] w-[42px] object-contain"
       />
-      <p className="font-poppins text-[18px] font-normal leading-[32px] text-white">
+      <p className="font-poppins text-[18px] font-normal leading-[32px] text-white mr-5">
         {content}
       </p>
       <div className="flex flex-row">
         <img src={img} className="h-[48px] w-[48px] rounded-full" />
 
         <div className="ml-4 flex flex-col">
-          <h4>{name}</h4>
-          <p>{title}</p>
+          <h4 className="font-poppins text-[20px] font-normal leading-[32px] text-white">{name}</h4>
+          <p className="font-poppins text-[16px] font-normal leading-[24px] text-dimWhite">{title}</p>
         </div>
       </div>
     </div>

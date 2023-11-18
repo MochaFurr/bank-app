@@ -13,7 +13,7 @@ const Testimonials = () => {
   return (
     <StyledSection id="clients">
       {/* TO DO - gradient div */}
-      <div />
+      <div className="absolute z-[0] w-[60%] h-[60%] -right-[50%] rounded-full blue__gradient"/>
 
       <TextDiv>
         <StyledHeading>

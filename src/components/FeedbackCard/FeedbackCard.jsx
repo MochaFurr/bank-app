@@ -1,9 +1,26 @@
-import React from 'react'
+import { quotes } from "../../assets";
 
-const FeedbackCard = () => {
+const FeedbackCard = ({ content, name, title, img }) => {
   return (
-    <div>FeedbackCard</div>
-  )
-}
+    <div className="feedback-card my-5 mr-0 flex max-w-[370px] flex-col justify-between rounded-[20px] px-10 py-12 sm:mr-5 md:mr-10">
+      <img
+        src={quotes}
+        alt="double-qutes"
+        className="h-[27px] w-[42px] object-contain"
+      />
+      <p className="font-poppins text-[18px] font-normal leading-[32px] text-white">
+        {content}
+      </p>
+      <div className="flex flex-row">
+        <img src={img} className="h-[48px] w-[48px] rounded-full" />
 
-export default FeedbackCard
+        <div className="ml-4 flex flex-col">
+          <h4>{name}</h4>
+          <p>{title}</p>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default FeedbackCard;

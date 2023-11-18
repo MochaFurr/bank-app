@@ -57,7 +57,10 @@ export const ParagraphDiv = ({
 );
 
 export const CardDiv = ({ children, className = "", customStyle = {} }) => (
-  <div className={`flex flex-wrap sm:justify-start justify-center w-full feedback-container relative z-[1] ${className}`} style={customStyle}>
+  <div
+    className={`feedback-container relative z-[1] flex w-full flex-wrap justify-center sm:justify-start ${className}`}
+    style={customStyle}
+  >
     {children}
   </div>
 );

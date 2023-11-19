@@ -1,16 +1,16 @@
-import style from "../../style";
+import styles from "../../style";
 
 export const StyledSection = ({ children }) => (
-  <section className={`${style.flexCenter} my-4 `}>{children}</section>
+  <section className={`${styles.flexCenter} my-4 `}>{children}</section>
 );
 
 export const StyledDiv = ({ children }) => (
-  <div className={`${style.flexCenter} w-full flex-wrap `}>{children}</div>
+  <div className={`${styles.flexCenter} w-full flex-wrap `}>{children}</div>
 );
 
 // TO DO on hover - some efect
 export const ImageDiv = ({ children }) => (
-  <div className={`flex-1 ${style.flexCenter} min-w-[120px] sm:min-w-[192px]`}>
+  <div className={`flex-1 ${styles.flexCenter} min-w-[120px] sm:min-w-[192px]`}>
     {children}
   </div>
 );

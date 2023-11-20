@@ -36,6 +36,10 @@ export const LinkDiv = ({ children }) => (
   </div>
 );
 
+export const LinkHeading = ({ children }) => (
+  <h2 className={`font-poppins text-[18px] font-medium leading-[27px] text-white `}>{children}</h2>
+);
+
 export const RightsDiv = ({ children }) => (
   <div className="w-full flex justify-between items-center md:flex-row flex-col pt-6 border-t-[1px] border-t-[#3F3E45]">
     {children}
@@ -53,5 +57,7 @@ export const RightsParagraph = ({ children }) => (
 export const SocialDiv = ({ children }) => (
   <div className="flex flex-row md:mt-0 mt-6">{children}</div>
 );
+
+
 
 

@@ -3,6 +3,7 @@ import { footerLinks, socialMedia } from "../../constants";
 import {
   ImageDiv,
   LinkDiv,
+  LinkHeading,
   RightsDiv,
   RightsParagraph,
   SocialDiv,
@@ -29,9 +30,9 @@ const Footer = () => {
             key={footerLink.title}
             className="my-4 flex min-w-[150px] flex-col ss:my-0"
           >
-            <h4 className="font-poppins text-[18px] font-medium leading-[27px] text-white">
+            <LinkHeading >
               {footerLink.title}
-            </h4>
+            </LinkHeading>
             <ul className="mt-4 list-none">
               {footerLink.links.map((link, index) => (
                 <li

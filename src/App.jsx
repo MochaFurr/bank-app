@@ -1,4 +1,3 @@
-import React from "react";
 import styles from "./style";
 import {
   Billing,
@@ -7,7 +6,6 @@ import {
   Clients,
   CTA,
   Footer,
-  GetStarted,
   MainSection,
   Navbar,
   Stats,
